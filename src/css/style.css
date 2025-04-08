@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.search {
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid #CFD8DC;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 2px solid #ffffff;
+    transition: all 0.5s;
+}
+.search::placeholder {
+    color: #90A4AE;
+}
+.search:focus {
+    border-color: #40C4FF;
+    outline-color: #B3E5FC;
+}
+
+.container {
+    width: 500px;
+}
+
+.post {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+.post__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.post__title {
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.post__buttons {
+    flex-shrink: 0;
+}
+
+.post__button {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px; 
+}
+
+.button_show {
+    background-color: green;
+}
+
+.button_edit {
+    background-color: blue;
+}
+
+.button_delete {
+    background-color: red;
+}
+
+.button_save {
+
+}
+
+.button_cancel {
+
+}
